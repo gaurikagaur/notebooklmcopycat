@@ -1,0 +1,76 @@
+/* Main container styling */
+.main {
+    padding: 2rem;
+}
+
+/* Header styling */
+.stTitle {
+    color: #1E1E1E;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+/* File uploader styling */
+.uploadedFile {
+    border: 2px dashed #cccccc;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Button styling */
+.stButton>button {
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    background-color: #FF4B4B;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #FF3333;
+    transform: translateY(-2px);
+}
+
+/* Success message styling */
+.success {
+    background-color: #28a745;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+/* Error message styling */
+.error {
+    background-color: #dc3545;
+    color: white;
+    padding: 0.75rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+/* Audio player styling */
+.stAudio {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+/* Text area styling */
+.stTextArea>div>div>textarea {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+/* Progress bar styling */
+.stProgress {
+    height: 6px;
+    background-color: #f0f2f6;
+}
+
+.stProgress>div {
+    background-color: #FF4B4B;
+}
